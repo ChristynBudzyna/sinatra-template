@@ -1,0 +1,86 @@
+body {
+  width: 800px;
+  margin: 0 8% 10% 8%;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  font-size: 3em;
+  margin-top: none;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  margin-left: 10%;
+  display: block;
+  font-size: 2em;
+  margin-top: 10%;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;;
+}
+
+p, li {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 6%;
+}
+
+a {
+  font-family: 'Droid Sans', sans-serif;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 600px;
+  background-color: #d3d3d3;
+  padding: 1em;
+  margin: 20px auto;
+  border: 1px dashed black;
+}
+
+.form-holder {
+  width: 700px;
+  padding: 1em;
+  margin: 20px auto;
+  border: 1px solid black;
+  background: -webkit-gradient(linear, center top, center bottom, color-stop(0%, #00CC99), color-stop(100%, #000066));
+  text-align: center;
+}
+
+.button {
+  font-family: 'Droid Sans', sans-serif;
+  border: none;
+  background-color: gray;
+  color: white;
+  padding: 1%;
+  margin-left: 8px;
+}
+
+.form-text {
+  font-family: 'Droid Sans', sans-serif;
+  margin: 1%;
+  padding: 1%;
+}
+
+.nav {
+  float: right;
+  margin: 0;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.key {
+  text-decoration: underline;
+}

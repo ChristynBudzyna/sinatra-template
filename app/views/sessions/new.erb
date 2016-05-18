@@ -1,0 +1,18 @@
+<body>
+  <h2>login</h2>
+  <div class="form-holder">
+    <form action="/login" method="post">
+      <input type="text" name="user[email]" placeholder="email address">
+      <input type="password" name="user[password]" placeholder="password">
+      <input type="submit" value="login" class="button">
+    </form>
+  </div>
+
+  <%if @errors %>
+    <% @errors.each do |message| %>
+      <%=message%>
+    <%end%>
+  <%end%>
+
+</body>
+
